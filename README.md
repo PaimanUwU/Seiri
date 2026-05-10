@@ -8,7 +8,9 @@ If your "system" for taking notes is currently a graveyard of `untitled_final_v2
 
 > **Why Go?** Because it's fast.
 > **Why the Terminal?** Because clicking buttons is a distraction.
-> **Why for ADHD?** Because if the interface isn't pretty and the feedback isn't instant, we're going to go watch 4 hours of cat documentaries instead of studying CS230.
+> **Why for ADHD?** Because if the interface isn't pretty and the feedback isn't instant, we're going to go watch 4 hours of cat documentaries instead of studying/working.
+
+--- 
 
 ## Key Philosophy
 
