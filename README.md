@@ -97,13 +97,6 @@ go build -o seiri main.go
 
 ```
 
-**For your Linux Home Server (CachyOS):**
-
-```bash
-GOOS=linux GOARCH=amd64 go build -o seiri-linux main.go
-
-```
-
 ---
 
 *Made with ❤️, caffeine, and a total lack of focus by a CS student.*
