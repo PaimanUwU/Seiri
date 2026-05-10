@@ -1,8 +1,14 @@
-# Seiri (整理)
+# 🧠 Seiri (整理)
 
-**Seiri** is a modular, high-performance "Second Brain" management tool designed for the terminal (and beyond). Built with **Go**, it implements the **PARA Method** (Projects, Areas, Resources, Archives) to help developers and students organize their knowledge base without leaving the keyboard.
+### **"The Second Brain for the Distracted Mind."**
 
-The name comes from the Japanese 5S methodology, meaning "Sort" or "Tidiness"—the act of removing unnecessary items and organizing the essential.
+**Seiri** is a modular, high-performance knowledge engine built for people whose brains have too many tabs open. It’s a PARA-method organizer that lives in your terminal today and will haunt your desktop tomorrow.
+
+If your "system" for taking notes is currently a graveyard of `untitled_final_v2.md` files scattered across your `Downloads` folder, **Seiri** is here to slap some order into your life.
+
+> **Why Go?** Because it's fast.
+> **Why the Terminal?** Because clicking buttons is a distraction.
+> **Why for ADHD?** Because if the interface isn't pretty and the feedback isn't instant, we're going to go watch 4 hours of cat documentaries instead of studying CS230.
 
 ## Key Philosophy
 
@@ -19,14 +25,14 @@ The name comes from the Japanese 5S methodology, meaning "Sort" or "Tidiness"—
 * **Concurrency:** Leverages Go Goroutines for background file indexing and Git synchronization, ensuring the UI never flickers or freezes.
 * **Cross-Platform:** Native support for **macOS** (development) and **Linux** (deployment on CachyOS/Arch) via Go's powerful cross-compilation.
 
-## 2. The Interfaces (The "Faces")
+## 2. The Interfaces
 
 * **TUI (Current):** A terminal interface built with `bubbletea` and `lipgloss`. It follows the Model-View-Update (MVU) pattern for a snappy, state-driven experience.
 * **Desktop (Future):** Built with `Wails`, allowing the same Go backend to power a modern web-tech frontend (Astro/React) for a full GUI experience.
 
 ---
 
-## Project Structure
+## 📂 Project Structure (For the Curious)
 
 ```text
 seiri/
@@ -79,23 +85,23 @@ seiri/
 
 ---
 
-## Development
+## 🛠️ Installation (For the Brave)
 
-**Prerequisites:**
-
-* Go 1.26+
-* A Nerd Font compatible terminal (e.g., Ghostty, Kitty, or Alacritty)
-
-**Building for local use:**
+**On your Mac:**
 
 ```bash
 go build -o seiri main.go
+./seiri
 
 ```
 
-**Cross-compiling for CachyOS (Linux):**
+**For your Linux Home Server (CachyOS):**
 
 ```bash
 GOOS=linux GOARCH=amd64 go build -o seiri-linux main.go
 
 ```
+
+---
+
+*Made with ❤️, caffeine, and a total lack of focus by a CS student.*

@@ -1,0 +1,26 @@
+# Binary executable
+seiri
+seiri-linux
+seiri-darwin
+
+# Go specific
+vendor/
+*.exe
+*.test
+*.out
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config (Don't leak your personal note paths to GitHub!)
+config.yml
+.config/
