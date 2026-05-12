@@ -2,7 +2,7 @@
 
 ### **"The Second Brain for the Distracted Mind."**
 
-**Seiri** is a modular, high-performance knowledge engine built for people whose brains have too many tabs open. It’s a PARA-method organizer that lives in your terminal today and will haunt your desktop tomorrow.
+Originate from a shell script [PaimanUwU/Dotfiles: my lovely dotfiles](https://github.com/PaimanUwU/Dotfiles) I made to quickly handle my notes. **Seiri** is a modular, high-performance knowledge engine built for people whose brains have too many tabs open. It’s a PARA-method organizer that lives in your terminal today and will haunt your desktop tomorrow.
 
 If your "system" for taking notes is currently a graveyard of `untitled_final_v2.md` files scattered across your `Downloads` folder, **Seiri** is here to slap some order into your life.
 
